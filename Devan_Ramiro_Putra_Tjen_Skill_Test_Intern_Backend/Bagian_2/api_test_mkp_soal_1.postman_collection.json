@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "9bef0707-e464-46cd-b780-9ef6f9ea874d",
+		"name": "api_test_mkp_soal_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40432955"
+	},
+	"item": [
+		{
+			"name": "soal1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"company_id\" : 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost\\Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend\\Bagian_2\\soal_1\\api_soal_1.php",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend",
+						"Bagian_2",
+						"soal_1",
+						"api_soal_1.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "soal2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"company_id\" : 1,\r\n    \"customer_id\" : 82\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost\\Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend\\Bagian_2\\soal_1\\api_soal_1.php",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend",
+						"Bagian_2",
+						"soal_1",
+						"api_soal_1.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

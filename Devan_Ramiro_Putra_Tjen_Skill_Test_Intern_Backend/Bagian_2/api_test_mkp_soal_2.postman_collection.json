@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "998ea472-12bd-42fd-bc1e-5fb6a7e410fa",
+		"name": "api_test_mkp_soal_2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40432955"
+	},
+	"item": [
+		{
+			"name": "GET_Tabel_Customer_api",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend/Bagian_2/soal_2/api_get_1.php?company=2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend",
+						"Bagian_2",
+						"soal_2",
+						"api_get_1.php"
+					],
+					"query": [
+						{
+							"key": "company",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Tabel_Customer_Transaction.api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend/Bagian_2/soal_2/api_get_2.php?id=2",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend",
+						"Bagian_2",
+						"soal_2",
+						"api_get_2.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_Tabel_Product.api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"product_name\": \"TRANSFER OFF US\",\r\n    \"service_fee\": 1.00,\r\n    \"service_fee_percentage\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost\\Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend\\Bagian_2\\soal_2\\api_post_1.php",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Devan_Ramiro_Putra_Tjen_Skill_Test_Intern_Backend",
+						"Bagian_2",
+						"soal_2",
+						"api_post_1.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
